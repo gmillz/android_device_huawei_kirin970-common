@@ -18,7 +18,7 @@ ifneq ($(BOARD_PROVIDES_BOOTLOADER_MESSAGE),)
 include $(CLEAR_VARS)
 LOCAL_CLANG := true
 LOCAL_SRC_FILES := bootloader_message.cpp
-LOCAL_MODULE := libbootloader_message
+LOCAL_MODULE := libbootloader_message_kirin
 LOCAL_STATIC_LIBRARIES := libbase libfs_mgr
 LOCAL_CFLAGS := -Werror
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/include
